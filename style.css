@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-color: #EEEEEE ;
+    background-color: #ADB5BD ;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -10,18 +10,22 @@ body{
 
 .header {
     display: flex;
-    background-color: white;
-    color: black;
+    background-color: #F8F9FA;
+    color: #212529;
     box-shadow: 0 4px 2px -2px lightgray;
-    justify-content: space-between;
+    justify-content: center;
     padding: 16px;
 }
 
-.header button{
+.newBtn{
+    background-color: #E9ECEF;
     font-size: 16px;
-    padding: 8px;
-    border-radius: 25px;
+    padding: 16px;
+    border-radius: 100px;
     border-width: 0px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
 }
 
 .library {
@@ -67,17 +71,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    background-color: #EEEEEE;
+    background-color: #ADB5BD;
     gap: 16px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-   
     border: 0px;
     padding: 24px
 }
 
 .formContainer input {
-    background-color: white;
+    background-color: #F8F9FA;
     flex:500px;
     width: 100%;
     border-radius: 10px;
@@ -103,7 +106,7 @@ body{
 }
 
 .formContainer button {
-    background-color: lightgray;
+    background-color: #6C757D;
     font-size: 24px;
     border-radius: 10px;
     border: 0px;
@@ -112,7 +115,7 @@ body{
 }
 
 .form .closeButton{
-    background-color: rgb(158, 157, 157);
+    background-color: #495057;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;  
     border-bottom-left-radius: 10px;

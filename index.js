@@ -66,8 +66,7 @@ function displayBook(book){
     librarySpot.classList.add(`${index}`)
     librarySpot.style.display = "flex";
     librarySpot.style.flexDirection = "column";
-    librarySpot.style.backgroundColor = "#EEEEEE"
-    librarySpot.style.backgroundColor = "white"
+    librarySpot.style.backgroundColor = "#F8F9FA"
     librarySpot.style.borderRadius = "10px"
     librarySpot.style.boxShadow = "2px 2px 2px lightgrey"
  
