@@ -122,8 +122,6 @@ function removeAllChildNodes(parent) {
 }
 
 function toggleColor(){
-    console.log(this.value);   
-    
     let position = this.value;
 
     myLibrary[position].toggleRead();
