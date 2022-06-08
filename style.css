@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #EEEEEE ;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 2px -2px lightgray;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header button{
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+.library {
+    display: grid;
+    gap: 24px;
+    padding: 16px;
+    text-align: center;
+    
+    /*Remove later*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.library p {
+    font-size: 24px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.library button {
+    font-size: 24px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formContainer {
+    position: fixed;
+    display: none;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.212);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formContainer form{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: #EEEEEE;
+    gap: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    border: 0px;
+    padding: 24px
+}
+
+.formContainer input {
+    background-color: white;
+    flex:500px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+    color: black;
+}
+
+.formContainer label{
+    font-size: 24px;
+}
+
+.formContainer .checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.formContainer button {
+    background-color: lightgray;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.form .closeButton{
+    background-color: rgb(158, 157, 157);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
