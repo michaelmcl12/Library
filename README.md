@@ -1,3 +1,3 @@
 # Library
 
-Project takes input from the user and then displays the data on the webpage.
+the project takes in data of book the user plans to read or has read. This information is then dispalyed on the webpage, all the data is currently stored locally.
