@@ -1,15 +1,19 @@
 //Constructor for book class.
-function Book(title, author, pages, read){
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.read = read;
+class Book{
+    constructor (title, author, pages, read){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
+
+    //Function that switches the boolean value of the read attribute.
+    toggleRead = function() {
+        this.read = !this.read;
+    }
 }
 
-//Function that switches the boolean value of the read attribute.
-Book.prototype.toggleRead = function() {
-    this.read = !this.read;
-}
+
 
 //Constants
 const titleValue = document.getElementById('bookTitle');
