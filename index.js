@@ -13,8 +13,6 @@ class Book{
     }
 }
 
-
-
 //Constants
 const titleValue = document.getElementById('bookTitle');
 const authorValue = document.getElementById('bookAuthor');
